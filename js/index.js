@@ -35,15 +35,15 @@ var folkcam = {
             {
                 img: 'img/icon/icon5.png',
                 title: '渠道运营专员', date: '2020-02-14',
-                text: '1、根据营销目标，制定基于新媒体资源的营销策划方案，并推进团队执行；<br>2、负责日常新媒体传播项目运营，包括且不限于选题方向、内容产出、预算把控；<br>3、统计新媒体渠道的数据，经过分类整理和分析，为公司相关决策提供依据，并不断优化提升投入产出比；<br>4、负责新媒体渠道整合营销，包括且不限于事件营销项目的选题策划执行；<br>5、在了解各部门对新媒体渠道宣传需求的基础上，根据传播目标策划传播内容，并推荐团队执行；<br>6、管理供应商，负责公司品牌微信公众号、微博等日常运营。',
-                need: '1、本科及本科以上，可接受985/211院校应届生；<br>2、如果你能熟练玩转国外社交媒体和网站 ；<br>3、如果你对热点敏感，还有较强的信息收集能力，能快速整合资讯；<br>4、如果你有较强的文字写作能力和文字表现力；<br>5、如果你能熟练运用PS或者其他图像、视频编辑应用软件，那再好不过；<br>6、如果你有策划、执行过线上和线下活动的经验或能力；<br>7、如果你脑洞巨大，自带段子手属性，那我们找的就是你啦。',
+                text: '1、熟悉各大APP市场推广渠道，并有相应的渠道资源，促进公司APP的下载；<br>2、负责推广渠道合作拓展和维护，寻找、挖掘有利于公司的合作资源；<br>3、负责公司社交app第三方渠道的上架拓展和对接，拓展社交APP线上宣传和推广渠道；<br>4、负责公司app在应用商店相应ASO策略制定、内容、排名、热词优化；<br>5、负责兔聊社交APP在IOS及安卓应用商店，下载市场、下载站等国内知名安卓应用平；<br>6、监控各个渠道数据及推广效果，并对搜索引擎等长尾渠道的长期跟踪和优化。',
+                need: '1、本科及本科以上，可接受985/211院校应届生；<br>2、能够独立制定APP推广计划，及时完成转化率目标；<br>3、逻辑思维清晰，语言表达能力强，善于接受新事物；<br>4、熟悉各种软件商店、论坛、手机厂商或渠道商，熟悉iOS和Android平台，对APP的推广和运营有自己的认识。',
                 depart: '运营部',
             },
             {
                 img: 'img/icon/icon6.png',
                 title: '新媒体运营专员', date: '2020-02-14',
-                text: '1、各业务模块前端代码开发，参与多种平台的应用开发，包括Web与APP等产品，负责前端交互的实现；<br>2、负责JS通用类库、框架的编写；<br>3、设计及实现前后端的数据交互，对代码质量及进度负责；<br>4、优化代码并保持在各浏览器下的良好兼容性；<br>5、负责调研并确定前端技术框架。',
-                need: '1、本科及以上学历，可接受985/211院校应届生；<br>2、熟练掌握各种Web前端技术HTML5、XML、CSS；<br>3、掌握JavaScript语言核心技术DOM、BOM、Ajax、JSON，掌握多浏览器；<br>4、熟悉Bootstrap、Angular等js框架，并对其实现原理有所研究；<br>5、性格乐观开朗，逻辑性强，良好的团队合作精神，善于沟通，较强的学习能力；',
+                text: '1、根据营销目标，制定基于新媒体资源的营销策划方案，并推进团队执行；<br>2、负责日常新媒体传播项目运营，包括且不限于选题方向、内容产出、预算把控；<br>3、统计新媒体渠道的数据，经过分类整理和分析，为公司相关决策提供依据，并不断优化提升投入产出比；<br>4、负责新媒体渠道整合营销，包括且不限于事件营销项目的选题策划执行；；<br>5、在了解各部门对新媒体渠道宣传需求的基础上，根据传播目标策划传播内容，并推荐团队执行；<br>6、管理供应商，负责公司品牌微信公众号、微博等日常运营。',
+                need: '1、本科及以上学历，可接受985/211院校应届生; <br>2、如果你能熟练玩转国外社交媒体和网站 ；<br>3、如果你对热点敏感，还有较强的信息收集能力，能快速整合资讯；<br>4、如果你有较强的文字写作能力和文字表现力；<br>5、如果你能熟练运用PS或者其他图像、视频编辑应用软件，那再好不过；<br>6、如果你有策划、执行过线上和线下活动的经验或能力；<br>7、如果你脑洞巨大，自带段子手属性，那我们找的就是你啦。',
                 depart: '运营部',
 
             },
@@ -165,11 +165,26 @@ var folkcam = {
     page: 0,
     dynamicIndex: 0,
     dynamicArr: [
+        {
+            date: '03-30',
+            year: '2020',
+            title: '镜玩科技第一季度季度会议',
+            text: '2020年3月28日下午14时30分，镜玩科技在公司召开了2020年度第一季度工作会议。',
+            imgPath: 'img/202003301.png'
+        },
+
+        {
+            date: '03-30',
+            year: '2020',
+            title: '众志成城，一起抗"疫"',
+            text: '新冠肺炎疫情发生后，我司领导一直非常关注国内外疫情发展的状态,在确保公司顺利复工复产的同时，发扬企业家大爱精神，履行社会责任，积极捐款捐物，充分彰显了我司的责任与担当。',
+            imgPath: 'img/20200330.png'
+        },
         // {
         //     date: '03-17',
         //     year: '2020',
         //     title: '镜玩科技2020校园招聘|湖南大学春季空中双选会火热来袭',
-        //     text: '寒潮散去，春暖花开；疫情虽犹在，招聘不停息；镜玩科技2020春季校园招聘全面开启',
+        //     text: '新冠肺炎疫情发生后，我司领导一直非常关注国内外疫情发展的状态',
         //     imgPath: 'img/newDetail/202003171.png'
         // },
         {
@@ -390,16 +405,15 @@ var folkcam = {
         },
     ],
     init: function () {
-        folkcam.createHeader() //创建导航栏
-        folkcam.createFooter() //创建底栏
-        folkcam.createSwiper()
-        folkcam.createScool()
+        // folkcam.menuAnimate()   //页面切换动效
+        folkcam.createSwiper() //初始化swiper轮播
+        folkcam.createScool()  //生成校招职位
         folkcam.bindEvent()
-        folkcam.createNew()
-        folkcam.createSocial()
-        folkcam.createdynamic()
-        folkcam.createPage()
-        folkcam.createLeader()
+        folkcam.createNew()   //生成首页新闻
+        folkcam.createSocial()  //生成社招相关职位
+        folkcam.createdynamic()  //生成动态列表
+        folkcam.createPage()    //列表下方的导航栏
+        folkcam.createLeader()  //生成核心团队的数据
         folkcam.createPerson()
         folkcam.createWelfList()
         if (window.location.href.indexOf('scoolDetail.html') > -1) {
@@ -409,6 +423,24 @@ var folkcam = {
         if (window.location.href.indexOf('dynamicDetail.html') > -1) {
             folkcam.initDetail()
         }
+        addObserver();
+    },
+    menuAnimate: function () {
+        //菜单动态切换页面效果
+        $(".menu li a, .logo a").click(function () {
+            if ($(this).attr("target") != "_blank") {
+                //   && window.location.href.indexOf($(this).attr("href"))<0
+                if ($(this).attr("href") != "javascript:;" && $(this).attr("href") != "#")
+                    return openwork($(this).attr("href"));
+            }
+        });
+        function openwork(url) {
+            $("body").append("<div class='page-cover'></div>").css("position", "relative");
+            $(".page-cover").delay(300).animate({ "height": $(document).height() }, 600, null, function () {
+                location.href = url;
+            });
+            return false
+        };
     },
     bindEvent: function () {
         $('.project-nav div').each(function (index, ele) {
@@ -426,7 +458,7 @@ var folkcam = {
         for (var i = 0; i < folkcam.leaderArr.length; i++) {
             str += (function (num) {
                 var obj = folkcam.leaderArr[num];
-                return (num % 3 == 0 ? '<div class="leader-row flexbox between">' : '') + '<div class="leader team-card column" ><img src="' + obj.photo + '" alt=""><h1>' + obj.name + '</h1><p>' + obj.position + '</p><p>' + obj.intro + '</p></div>' + (num % 3 == 2 ? '</div>' : '')
+                return (num % 3 == 0 ? '<div class="leader-row flexbox between">' : '') + '<div class="leader team-card column" ><img class="lazy" data-original="' + obj.photo + '" alt=""><h1>' + obj.name + '</h1><p>' + obj.position + '</p><p>' + obj.intro + '</p></div>' + (num % 3 == 2 ? '</div>' : '')
             })(i)
         }
         $('.leader-wrap').html(str)
@@ -468,7 +500,7 @@ var folkcam = {
             str += (function (num) {
                 var obj = newArr[num];
                 return '<div class="summary1 new-card ' + (num == 0 ? 'summary1-active' : '') + '" onclick="goDetail(' + (+num + 1) + ')">'
-                    + '	<img src="' + obj.imgPath + '" alt="">'
+                    + '	<img class="lazy" data-original="' + obj.imgPath + '" alt="">'
                     + '	<h1 class="textOverflow">' + obj.title + '</h1>'
                     + '	<p class="showTwo">' + obj.text + '</p>'
                     + '</div>'
@@ -510,7 +542,7 @@ var folkcam = {
         for (var i = 0; i < arr.length; i++) {
             str += (function (num) {
                 var obj = arr[num];
-                return '<dl><dt class="dl-section flexbox between"><span>' + obj.name + '</span><span>' + obj.money + '</span><span>' + obj.date + '</span><span><button class="send-resure">投递简历<img src="img/zysy4.png"/></button></span></dt><dd class="flexbox around"><div><h1>岗位职责: </h1><p> ' + obj.worker + '</p></div><div><h1>岗位要求: </h1><p> ' + obj.need + '</p></div></dd></dl>'
+                return '<dl><dt class="dl-section flexbox between"><span>' + obj.name + '</span><span>' + obj.money + '</span><span>' + obj.date + '</span><span><button class="send-resure">投递简历<img class="lazy" data-original="img/zysy4.png"/></button></span></dt><dd class="flexbox around"><div><h1>岗位职责: </h1><p> ' + obj.worker + '</p></div><div><h1>岗位要求: </h1><p> ' + obj.need + '</p></div></dd></dl>'
             })(i)
         }
         $('.dl-wrap').html(str);
@@ -528,88 +560,6 @@ var folkcam = {
             $(this).next().slideToggle(500);
             $(this).toggleClass("current");
         });
-    },
-    initMap: function () {
-        folkcam.createMap();//创建地图
-        folkcam.setMapEvent();//设置地图事件
-        folkcam.addMapControl();//向地图添加控件
-        // folkcam.addMarker();//向地图中添加marker
-    },
-    createMap: function () {
-        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
-        var point = new BMap.Point(113.96048, 22.541374);//定义一个中心点坐标
-        map.centerAndZoom(point, 16);//设定地图的中心点和坐标并将地图显示在地图容器中
-        folkcam.map = map;//将map变量存储在全局
-    },
-    setMapEvent: function () {
-        folkcam.map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
-        folkcam.map.enableScrollWheelZoom();//启用地图滚轮放大缩小
-        folkcam.map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
-        folkcam.map.enableKeyboard();//启
-    },
-    addMapControl: function () {
-        //向地图中添加缩放控件
-        var ctrl_nav = new BMap.NavigationControl({ anchor: BMAP_ANCHOR_TOP_LEFT, type: BMAP_NAVIGATION_CONTROL_LARGE });
-        folkcam.map.addControl(ctrl_nav);
-        //向地图中添加缩略图控件
-        var ctrl_ove = new BMap.OverviewMapControl({ anchor: BMAP_ANCHOR_BOTTOM_RIGHT, isOpen: 1 });
-        folkcam.map.addControl(ctrl_ove);
-        //向地图中添加比例尺控件
-        var ctrl_sca = new BMap.ScaleControl({ anchor: BMAP_ANCHOR_BOTTOM_LEFT });
-        folkcam.map.addControl(ctrl_sca);
-    },
-    addMarker: function () {
-        //标注点数组
-        for (var i = 0; i < folkcam.markerArr.length; i++) {
-            var json = folkcam.markerArr[i];
-            var p0 = json.point.split("|")[0];
-            var p1 = json.point.split("|")[1];
-            var point = new BMap.Point(p0, p1);
-            var iconImg = folkcam.createIcon(json.icon);
-            var marker = new BMap.Marker(point, { icon: iconImg });
-            var iw = folkcam.createInfoWindow(i);
-            var label = new BMap.Label(json.title, { "offset": new BMap.Size(json.icon.lb - json.icon.x + 10, -20) });
-            marker.setLabel(label);
-            folkcam.map.addOverlay(marker);
-            label.setStyle({
-                borderColor: "#808080",
-                color: "#333",
-                cursor: "pointer"
-            });
-
-            (function (index) {
-                // var index = i;
-                var _iw = folkcam.createInfoWindow(i);
-                var _marker = marker;
-                _marker.addEventListener("click", function () {
-                    this.openInfoWindow(_iw);
-                });
-                _iw.addEventListener("open", function () {
-                    _marker.getLabel().hide();
-                })
-                _iw.addEventListener("close", function () {
-                    _marker.getLabel().show();
-                })
-                label.addEventListener("click", function () {
-                    _marker.openInfoWindow(_iw);
-                })
-                if (!!json.isOpen) {
-                    label.hide();
-                    _marker.openInfoWindow(_iw);
-                }
-            })(i)
-        }
-    },
-    //创建一个Icon
-    createIcon: function (json) {
-        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w, json.h), { imageOffset: new BMap.Size(-json.l, -json.t), infoWindowOffset: new BMap.Size(json.lb + 5, 1), offset: new BMap.Size(json.x, json.h) })
-        return icon;
-    },
-    //创建InfoWindow
-    createInfoWindow: function (i) {
-        var json = folkcam.markerArr[i];
-        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>" + json.content + "</div>");
-        return iw;
     },
     createSwiper: function () {
         // folkcam.mySwiper = new Swiper('.swiper-container', {
@@ -642,7 +592,7 @@ var folkcam = {
         for (var i = 0; i < folkcam.joinUs.scool.length; i++) {
             str += (function (num) {
                 var obj = folkcam.joinUs.scool[num];
-                return (num % 4 == 0 ? '<div class="flexbox between position-wrap">' : '') + '<div class="position column" onClick="goScoolDetail()"><img src="' + obj.img + '" alt=""><h1>' + obj.title + '</h1><p>'
+                return (num % 4 == 0 ? '<div class="flexbox between position-wrap">' : '') + '<div class="position column" onClick="goScoolDetail()"><img class="lazy" data-original="' + obj.img + '" alt=""><h1>' + obj.title + '</h1><p>'
                     + obj.text + '</p></div>' + (num % 4 == 3 ? '</div>' : '')
             })(i)
         }
@@ -655,7 +605,7 @@ var folkcam = {
         for (var i = 0; i < arr.length; i++) {
             str += (function (num) {
                 var obj = arr[num];
-                return '<dl><dt class="dl-section flexbox between"><div class="dl-left"><h1>' + obj.title + '</h1><p class="flexbox start">' + obj.depart + '&nbsp;&nbsp;|&nbsp;&nbsp;实习</p></div><div class="dl-right"><img src="img/weixin.png" alt=""><p class="flexbox end">发布时间: ' + obj.date + '</p></div></dt><dd class="flexbox around"><div><h1>岗位职责</h1><p>' + obj.text + '</p></div><div><h1>岗位要求</h1><p>' + obj.need + '</p></div></dd></dl>'
+                return '<dl><dt class="dl-section flexbox between"><div class="dl-left"><h1>' + obj.title + '</h1><p class="flexbox start">' + obj.depart + '&nbsp;&nbsp;|&nbsp;&nbsp;实习</p></div><div class="dl-right"><img class="lazy" data-original="img/weixin.png" alt=""><p class="flexbox end">发布时间: ' + obj.date + '</p></div></dt><dd class="flexbox around"><div><h1>岗位职责</h1><p>' + obj.text + '</p></div><div><h1>岗位要求</h1><p>' + obj.need + '</p></div></dd></dl>'
             })(i)
         }
         $('.scool-detail-list').html(str);
@@ -695,7 +645,7 @@ var folkcam = {
         for (var i = 0; i < folkcam.personArr.length; i++) {
             str += (function (num) {
                 var obj = folkcam.personArr[num];
-                return (num % 3 == 0 ? '<div class="flexbox between">' : '') + '<div class="col"><img src="' + obj.img + '" alt=""><h6>' + obj.title + '</h6><p>' + obj.text + '</p></div>' + (num % 3 == 2 ? ' </div>' : '')
+                return (num % 3 == 0 ? '<div class="flexbox between">' : '') + '<div class="col"><img class="lazy" data-original="' + obj.img + '" alt=""><h6>' + obj.title + '</h6><p>' + obj.text + '</p></div>' + (num % 3 == 2 ? ' </div>' : '')
             })(i)
         }
         $('.person-wrap').html(str)
@@ -706,7 +656,7 @@ var folkcam = {
         for (var i = 0; i < folkcam.welfList.length; i++) {
             str += (function (num) {
                 var obj = folkcam.welfList[num];
-                return (num % 4 == 0 ? '<div class="flexbox between">' : '') + '<div class="welf-detail column"><img src="' + obj.img + '" alt=""><p>' + obj.title + '</p></div>' + (num % 4 == 3 ? ' </div>' : '')
+                return (num % 4 == 0 ? '<div class="flexbox between">' : '') + '<div class="welf-detail column"><img class="lazy" data-original="' + obj.img + '" alt=""><p>' + obj.title + '</p></div>' + (num % 4 == 3 ? ' </div>' : '')
             })(i)
         }
         $('.welf-wrap').html(str)
@@ -715,7 +665,7 @@ var folkcam = {
         var str = '<div class="top-main">'
             + '<div class="page-width flexbox between">'
             + '<div class="logo flexbox" skinobjectzone="HtmlLogo_399">'
-            + '<a href="index.html"><img src="img/logo.png" alt="深圳市镜玩科技有限公司" style="width: 211px;" />'
+            + '<a href="index.html"><img class="lazy" data-original="img/logo.png" alt="深圳市镜玩科技有限公司" style="width: 211px;" />'
             + '</a>'
             + '</div>'
             + '<div class="menu">'
@@ -802,41 +752,41 @@ var folkcam = {
     createFooter: function () {
         $('#footer').html('<div class="footer-contain">'
             + '<div class="flexbox between">'
-            + '    <img src="img/footer-logo.png" alt="">'
+            + '    <img class="lazy" data-original="img/footer-logo.png" alt="">'
             + '    <div class="footer-table flexbox between">'
             + '        <ul>'
             + '            <li>'
             + '                <h1>关于镜玩</h1>'
             + '            </li>'
-            + '            <li>公司简介</li>'
-            + '            <li>核心团队</li>'
-            + '            <li>资质荣誉</li>'
+            + '            <li><a class="" href="company.html" target="">公司简介</a></li>'
+            + '            <li><a class="" href="team.html" target="">核心团队</a></li>'
+            + '            <li><a class="" href="honor.html" target="">资质荣誉</a></li>'
             + '        </ul>'
             + '        <ul>'
             + '            <li>'
             + '                <h1>新闻中心</h1>'
             + '            </li>'
-            + '            <li>镜玩动态</li>'
+            + '            <li><a class="" href="dynamic.html" target="">镜玩动态</a></li>'
             + '            <li></li>'
             + '        </ul>'
             + '        <ul>'
             + '            <li>'
             + '                <h1>项目中心</h1>'
             + '            </li>'
-            + '            <li>P咖</li>'
-            + '            <li>兔聊</li>'
-            + '            <li>来惜</li>'
+            + '            <li><a class="" href="https://pptdaka.com" target="_blank">P咖</a></li>'
+            + '            <li><a class="" href="https://www.expertol.cn" target="_blank">兔聊</a></li>'
+            + '            <li><a class="" href="https://www.camvivi.cn" target="_blank">来惜</a></li>'
             + '            <li></li>'
             + '        </ul>'
             + '        <ul>'
             + '            <li>'
             + '                <h1>加入镜玩</h1>'
             + '            </li>'
-            + '            <li>镜玩生活</li>'
-            + '            <li>镜玩福利</li>'
-            + '            <li>人才理念</li>'
-            + '            <li>人才招聘（社招）</li>'
-            + '            <li>人才招聘（校招）</li>'
+            + '            <li><a class="" href="live.html" target="">镜玩生活</a></li>'
+            + '            <li><a class="" href="welf.html" target="">镜玩福利</a></li>'
+            + '            <li><a class="" href="joinUsIdeal.html" target="">人才理念</a></li>'
+            + '            <li><a class="" href="joinUsOfSocial.html" target="">人才招聘(社招)</a></li>'
+            + '            <li><a class="" href="joinUsOfSchool.html" target="">人才招聘(校招)</a></li>'
             + '        </ul>'
             + '    </div>'
             + '    </div>'
@@ -920,7 +870,50 @@ function changeNav(num) {
     $('.project-nav>div:nth-child(' + num + ')').addClass('project-nav-active')
     $('.project-main>div:nth-child(' + num + ')').css('display', 'flex')
 }
+// 懒加载实现
+function lazyload() {
+    // 1,lazyload
+    // $('img.lazy').lazyload({
+    //     // placeholder: "image/default.png", //用图片提前占位
+    //     container: $(".folkcam"),  // 对某容器中的图片实现效果
+    //     threshold: 200, // 提前开始加载
+    //     event: 'sporty',  // 事件触发时才加载
+    //     failurelimit: 5, // 图片排序混乱时
+    //     // skip_invisible: false
+    // });
+    // 
+    // 第一种是计算每张图片相对屏幕顶端的距离就是offsetTop,如果offsetTop小于等于滚动的距离就是document.body.scrollTop和视口高度window.innerHeight之和，这个图片就会加载。
+    // var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+    // var winTop = window.innerHeight;
+    // $('.lazy').each(function (index, ele) {
+    //     console.log($(ele).offset().top, scrollTop + winTop)
+    //     if ($(ele).offset().top <= scrollTop + winTop) {
+    //         $(ele).attr('src', $(ele).attr('data-src'))
+    //     }
+    // })
+    // 第二种是运用API IntersectionObserver,去动态检测元素是否出现的屏幕内
 
+}
+var observer = new IntersectionObserver(function (changes) {
+    for (var i = 0; i < changes.length; i++) {
+        (function (num) {
+            //target：被观察的目标元素，是一个 DOM 节点对象
+            var item = changes[num]
+            item.target.src = item.target.dataset.original;
+        })(i)
+    }
+});
+function addObserver() {
+    $('.lazy').each(function (index, ele) {
+        //实例的observe方法可以指定观察哪个DOM节点
+        //开始观察  observe的参数是一个 DOM 节点对象
+        observer.observe(ele);
+    })
+}
+if (window.location.href.indexOf('index.html') < 0) {
+    folkcam.createHeader() //创建导航栏
+}
+folkcam.createFooter() //创建底栏
 folkcam.init();
 // 移动端打开跳转到移动端页面
 (function (doc, win) {
