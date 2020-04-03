@@ -899,7 +899,10 @@ var observer = new IntersectionObserver(function (changes) {
         (function (num) {
             //target：被观察的目标元素，是一个 DOM 节点对象
             var item = changes[num]
-            item.target.src = item.target.dataset.original;
+            if (item.isIntersecting) {
+                item.target.src = item.target.dataset.original;
+                observer.unobserve(item.target)
+            }
         })(i)
     }
 });
@@ -922,7 +925,7 @@ folkcam.init();
         recalc = function () {
             let clientWidth = docEl.clientWidth;
             if (!clientWidth) return;
-            if (clientWidth <= 1200) {
+            if (clientWidth <= 1000) {
                 window.location.href = "app/index.html";
             }
         };

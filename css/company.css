@@ -48,9 +48,14 @@
   margin-top: 10px;
 }
 .company-intro {
-  width: 100%;
-  margin: 42px 0 100px;
+  width: 80%;
+  margin: 42px auto 100px;
   align-items: flex-start;
+}
+@media screen and (min-width: 1000px) and (max-width: 1700px) {
+  .company-intro {
+    width: 100%;
+  }
 }
 .p-wrap {
   width: 50%;
@@ -123,7 +128,7 @@
   margin: 100px auto;
   align-items: flex-start;
 }
-@media screen and (min-width: 1200px) and (max-width: 1700px) {
+@media screen and (min-width: 1000px) and (max-width: 1700px) {
   .dynamic-main {
     width: 80%;
   }
@@ -224,7 +229,7 @@ button.btn-active {
   width: 60%;
   margin: 100px auto;
 }
-@media screen and (min-width: 1200px) and (max-width: 1700px) {
+@media screen and (min-width: 1000px) and (max-width: 1700px) {
   .team-main {
     width: 80%;
   }

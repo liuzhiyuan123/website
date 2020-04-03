@@ -940,18 +940,18 @@ table {
 }
 .home-contain {
   width: 100%;
-  height: 11rem;
+  /* height: 11rem; */
   /* background: url("../img/home-swiper.jpg");
   background-size: 100% 100%; */
   position: relative;
   animation: origin 1s ease-out;
 }
-.contain-main-banner{
+.contain-main-banner {
   width: 100%;
-  height: 100%;
+  height: 11rem;
   margin-top: -100px;
 }
-.contain-main-wrap{
+.contain-main-wrap {
   width: 100%;
   height: 100%;
   position: absolute;
